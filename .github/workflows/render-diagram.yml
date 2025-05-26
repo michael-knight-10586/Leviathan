@@ -32,7 +32,7 @@ jobs:
             -i Nantucket/directory_diagram.mmd \
             -o Nantucket/directory_diagram.png \
             --backgroundColor transparent \
-            --no-sandbox
+            --puppeteer-config Nantucket/puppeteer-config.json
 
       - name: Commit & push diagram
         run: |
