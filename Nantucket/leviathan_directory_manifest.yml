@@ -1,0 +1,90 @@
+Leviathan:
+  type: directory
+  metaphor: Leviathan
+  role: Project root
+  notes: ''
+  children:
+    Pequod:
+      type: directory
+      metaphor: Pequod
+      role: Docs & notebooks hub
+      notes: ''
+      children:
+        Chartroom:
+          type: directory
+          metaphor: Chartroom
+          role: High-level overviews + env files
+          notes: ''
+          children: {}
+        Maps:
+          type: directory
+          metaphor: Maps
+          role: Detailed architecture diagrams
+          notes: ''
+          children: {}
+        Logbook:
+          type: directory
+          metaphor: Logbook
+          role: Project diary & research notes
+          notes: ''
+          children: {}
+    Ocean:
+      type: directory
+      metaphor: Ocean
+      role: Data lake
+      notes: ''
+      children:
+        England_1:
+          type: directory
+          metaphor: England_1
+          role: Premier League data
+          notes: ''
+          children: {}
+        England_2:
+          type: directory
+          metaphor: England_2
+          role: Championship data
+          notes: ''
+          children: {}
+    Armory:
+      type: directory
+      metaphor: Armory
+      role: Feature-engineering pipelines
+      notes: ''
+      children:
+        Gam:
+          type: directory
+          metaphor: Gam
+          role: Cross-league utilities
+          notes: ''
+          children: {}
+        England_1:
+          type: directory
+          metaphor: England_1 (Armory)
+          role: League-specific transforms
+          notes: ''
+          children:
+            Spouter_inn:
+              type: directory
+              metaphor: Spouter_inn
+              role: Head-to-head & league tables
+              notes: ''
+              children: {}
+            Crows_nest:
+              type: directory
+              metaphor: Crows_nest
+              role: Rolling-form metrics
+              notes: ''
+              children: {}
+            Whaleboat:
+              type: directory
+              metaphor: Whaleboat
+              role: Expected-points models
+              notes: ''
+              children: {}
+            Tackle:
+              type: directory
+              metaphor: Tackle
+              role: Composite rankings
+              notes: ''
+              children: {}
