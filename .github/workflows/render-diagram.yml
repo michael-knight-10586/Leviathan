@@ -31,7 +31,8 @@ jobs:
             -i Nantucket/directory_diagram.mmd \
             -o Nantucket/directory_diagram.png \
             --backgroundColor transparent
-
+            --no-sandbox
+            
       - name: Commit & push diagram
         run: |
           git config user.name "github-actions[bot]"
