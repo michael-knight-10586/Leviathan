@@ -13,19 +13,19 @@ Leviathan:
         Chartroom:
           type: directory
           metaphor: Chartroom
-          role: High-level overviews + env files
+          role: High-level overviews + config
           notes: ''
           children: {}
         Maps:
           type: directory
           metaphor: Maps
-          role: Detailed architecture diagrams
+          role: Architecture diagrams + specs
           notes: ''
           children: {}
         Logbook:
           type: directory
           metaphor: Logbook
-          role: Project diary & research notes
+          role: Project diary & notes
           notes: ''
           children: {}
     Ocean:
@@ -67,7 +67,7 @@ Leviathan:
             Spouter_inn:
               type: directory
               metaphor: Spouter_inn
-              role: Head-to-head & league tables
+              role: Head-to-head & tables
               notes: ''
               children: {}
             Crows_nest:
