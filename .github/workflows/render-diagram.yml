@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'Nantucket/directory_diagram.mmd'
+  workflow_dispatch:
 
 jobs:
   render:
@@ -30,9 +31,9 @@ jobs:
           mmdc \
             -i Nantucket/directory_diagram.mmd \
             -o Nantucket/directory_diagram.png \
-            --backgroundColor transparent
+            --backgroundColor transparent \
             --no-sandbox
-            
+
       - name: Commit & push diagram
         run: |
           git config user.name "github-actions[bot]"
@@ -40,3 +41,4 @@ jobs:
           git add Nantucket/directory_diagram.png
           git commit -m "chore: auto-update directory diagram PNG"
           git push
+
