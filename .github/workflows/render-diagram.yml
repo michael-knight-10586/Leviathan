@@ -1,0 +1,41 @@
+name: Render Directory Diagram
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'Nantucket/directory_diagram.mmd'
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install Mermaid CLI
+        run: npm install -g @mermaid-js/mermaid-cli
+
+      - name: Convert .mmd → .png
+        run: |
+          mmdc \
+            -i Nantucket/directory_diagram.mmd \
+            -o Nantucket/directory_diagram.png \
+            --backgroundColor transparent
+
+      - name: Commit & push diagram
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Nantucket/directory_diagram.png
+          git commit -m "chore: auto-update directory diagram PNG"
+          git push
