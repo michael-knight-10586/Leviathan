@@ -15,19 +15,19 @@ Leviathan:
           metaphor: Chartroom
           role: High-level overviews + config
           notes: ''
-          children:
-            Maps:
-              type: directory
-              metaphor: Maps
-              role: ''
-              notes: ''
-              children: {}
-            Logbook:
-              type: directory
-              metaphor: Logbook
-              role: ''
-              notes: ''
-              children: {}
+          children: {}
+        Maps:
+          type: directory
+          metaphor: Maps
+          role: Architecture diagrams + specs
+          notes: ''
+          children: {}
+        Logbook:
+          type: directory
+          metaphor: Logbook
+          role: Project diary & notes
+          notes: ''
+          children: {}
     Ocean:
       type: directory
       metaphor: Ocean
@@ -39,79 +39,7 @@ Leviathan:
           metaphor: England_1
           role: Premier League data
           notes: ''
-          children:
-            Folder_1:
-              type: directory
-              metaphor: Folder_1
-              role: ''
-              notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-            Folder_2:
-              type: directory
-              metaphor: Folder_2
-              role: ''
-              notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-            Folder_3:
-              type: directory
-              metaphor: Folder_3
-              role: ''
-              notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+          children: {}
         England_2:
           type: directory
           metaphor: England_2
@@ -129,25 +57,7 @@ Leviathan:
           metaphor: Gam
           role: Cross-league utilities
           notes: ''
-          children:
-            scripts:
-              type: directory
-              metaphor: ''
-              role: ''
-              notes: ''
-              children: {}
-            maps:
-              type: directory
-              metaphor: ''
-              role: ''
-              notes: ''
-              children: {}
-            outputs:
-              type: directory
-              metaphor: ''
-              role: ''
-              notes: ''
-              children: {}
+          children: {}
         England_1:
           type: directory
           metaphor: England_1
@@ -157,182 +67,39 @@ Leviathan:
             Blubber_room:
               type: directory
               metaphor: Blubber_room
-              role: ''
+              role: Head-to-head & tables
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children:
-                    league_tables.csv:
-                      type: file
-                      metaphor: ''
-                      role: ''
-                      notes: ''
-                    H-to-H_records.csv:
-                      type: file
-                      metaphor: ''
-                      role: ''
-                      notes: ''
+              children: {}
             Crows_nest:
               type: directory
               metaphor: Crows_nest
-              role: ''
+              role: Rolling-form metrics
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children:
-                    league_tables.csv:
-                      type: file
-                      metaphor: ''
-                      role: ''
-                      notes: ''
-                    Sightseeing_results.csv:
-                      type: file
-                      metaphor: ''
-                      role: ''
-                      notes: ''
-                    Sightseeing_score_0.csv:
-                      type: file
-                      metaphor: ''
-                      role: ''
-                      notes: ''
-                    Sightseeing_score_1.csv:
-                      type: file
-                      metaphor: ''
-                      role: ''
-                      notes: ''
-                    Sightseeing_score_2.csv:
-                      type: file
-                      metaphor: ''
-                      role: ''
-                      notes: ''
+              children: {}
             Whaleboat:
               type: directory
               metaphor: Whaleboat
-              role: ''
+              role: Expected-points models
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
             Tackle:
               type: directory
               metaphor: Tackle
-              role: ''
+              role: Composite rankings
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
             Line:
               type: directory
               metaphor: Line
-              role: ''
+              role: Line analytics
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
             Harpoon:
               type: directory
               metaphor: Harpoon
-              role: ''
+              role: Harpoon analytics
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
     Awhalin:
       type: directory
       metaphor: Awhalin
@@ -356,334 +123,82 @@ Leviathan:
               metaphor: Mapple
               role: ''
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
             Peleg:
               type: directory
               metaphor: Peleg
               role: ''
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
             Bildad:
               type: directory
               metaphor: Bildad
               role: ''
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
             Flask:
               type: directory
               metaphor: Flask
               role: ''
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
             Stubb:
               type: directory
               metaphor: Stubb
               role: ''
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
             Fedallah:
               type: directory
               metaphor: Fedallah
               role: ''
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
             Tashtego:
               type: directory
               metaphor: Tashtego
               role: ''
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
             Daggoo:
               type: directory
               metaphor: Daggoo
               role: ''
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
             Elijah:
               type: directory
               metaphor: Elijah
               role: ''
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
             Ahab:
               type: directory
               metaphor: Ahab
               role: ''
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
             Starbuck:
               type: directory
               metaphor: Starbuck
               role: ''
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
             Ishmael:
               type: directory
               metaphor: Ishmael
               role: ''
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
             Queequeg:
               type: directory
               metaphor: Queequeg
               role: ''
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
             Rachel:
               type: directory
               metaphor: Rachel
               role: ''
               notes: ''
-              children:
-                scripts:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                maps:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
-                outputs:
-                  type: directory
-                  metaphor: ''
-                  role: ''
-                  notes: ''
-                  children: {}
+              children: {}
