@@ -16,16 +16,30 @@
 | Armory/England_1/Tackle/ | Tackle | Composite rankings |  |
 
 ```mermaid
-graph TD
-  Pequod --> Chartroom
-  Pequod --> Maps
-  Pequod --> Logbook
-  Ocean --> England_1
-  Ocean --> England_2
-  Armory --> Gam
-  Armory --> England_1
-  England_1 --> Spouter_inn
-  England_1 --> Crows_nest
-  England_1 --> Whaleboat
-  England_1 --> Tackle
+flowchart TB
+  Leviathan["Leviathan"]
+  Leviathan --> Pequod["Pequod"]
+  Pequod --> Ocean["Ocean"]
+  Ocean --> Armory["Armory"]
+
+  subgraph Pequod
+    Chartroom["Chartroom"]
+    Maps["Maps"]
+    Logbook["Logbook"]
+  end
+
+  subgraph Ocean
+    England_1["England_1"]
+    England_2["England_2"]
+  end
+
+  subgraph Armory
+    Gam["Gam"]
+    subgraph Armory_England1["England_1 (Armory)"]
+      Spouter_inn["Spouter_inn"]
+      Crows_nest["Crows_nest"]
+      Whaleboat["Whaleboat"]
+      Tackle["Tackle"]
+    end
+  end
 ```
