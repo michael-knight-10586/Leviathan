@@ -17,29 +17,34 @@
 
 ```mermaid
 flowchart TB
-  Leviathan["Leviathan"]
-  Leviathan --> Pequod["Pequod"]
-  Pequod --> Ocean["Ocean"]
-  Ocean --> Armory["Armory"]
+  %% Define a default style for all nodes
+  classDef default fill:#014F43,stroke:#014F43,color:gold;
 
+  %% Top-level flow
+  Leviathan["Leviathan"]:::default
+  Leviathan --> Pequod["Pequod"]:::default
+  Pequod --> Ocean["Ocean"]:::default
+  Ocean --> Armory["Armory"]:::default
+
+  %% Subgraphs
   subgraph Pequod
-    Chartroom["Chartroom"]
-    Maps["Maps"]
-    Logbook["Logbook"]
+    Chartroom["Chartroom"]:::default
+    Maps["Maps"]:::default
+    Logbook["Logbook"]:::default
   end
 
   subgraph Ocean
-    England_1["England_1"]
-    England_2["England_2"]
+    England_1["England_1"]:::default
+    England_2["England_2"]:::default
   end
 
   subgraph Armory
-    Gam["Gam"]
+    Gam["Gam"]:::default
     subgraph Armory_England1["England_1 (Armory)"]
-      Spouter_inn["Spouter_inn"]
-      Crows_nest["Crows_nest"]
-      Whaleboat["Whaleboat"]
-      Tackle["Tackle"]
+      Spouter_inn["Spouter_inn"]:::default
+      Crows_nest["Crows_nest"]:::default
+      Whaleboat["Whaleboat"]:::default
+      Tackle["Tackle"]:::default
     end
   end
 ```
