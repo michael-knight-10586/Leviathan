@@ -44,16 +44,6 @@ Leviathan:
           metaphor: ''
           role: ''
           notes: ''
-        directory_glossary.md:
-          type: file
-          metaphor: ''
-          role: ''
-          notes: ''
-        directory_diagram.mmd:
-          type: file
-          metaphor: ''
-          role: ''
-          notes: ''
         Leviathan_structure_source.pptx:
           type: file
           metaphor: ''
