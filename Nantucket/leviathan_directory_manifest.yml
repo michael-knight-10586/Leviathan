@@ -76,7 +76,12 @@ Leviathan:
               metaphor: ''
               role: ''
               notes: ''
-              children: {}
+              children:
+                England_1_sea_builder.ipynb:
+                  type: file
+                  metaphor: ''
+                  role: ''
+                  notes: ''
             maps:
               type: directory
               metaphor: ''
@@ -88,7 +93,57 @@ Leviathan:
               metaphor: ''
               role: ''
               notes: ''
-              children: {}
+              children:
+                England_1_dload.csv:
+                  type: file
+                  metaphor: ''
+                  role: ''
+                  notes: ''
+                England_1_rows_per_season.csv:
+                  type: file
+                  metaphor: ''
+                  role: ''
+                  notes: ''
+                England_1_Plankton.csv:
+                  type: file
+                  metaphor: ''
+                  role: ''
+                  notes: ''
+                England_1_Krill.csv:
+                  type: file
+                  metaphor: ''
+                  role: ''
+                  notes: ''
+                England_1_Squid.csv:
+                  type: file
+                  metaphor: ''
+                  role: ''
+                  notes: ''
+                England_1_Turtle.csv:
+                  type: file
+                  metaphor: ''
+                  role: ''
+                  notes: ''
+                England_1_Dolphin.csv:
+                  type: file
+                  metaphor: ''
+                  role: ''
+                  notes: ''
+                England_1_Orca.csv:
+                  type: file
+                  metaphor: ''
+                  role: ''
+                  notes: ''
+                England_1_Sperm_whale.csv:
+                  type: file
+                  metaphor: ''
+                  role: ''
+                  notes: ''
+                England_1_summary.csv:
+                  type: file
+                  metaphor: ''
+                  role: ''
+                  notes: ''
         England_2:
           type: directory
           metaphor: England_2
